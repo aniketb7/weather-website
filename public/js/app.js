@@ -18,7 +18,7 @@ weatherForm.addEventListener('submit',(e)=>{
         else{
             console.log(data)
         messageOne.textContent=data.location
-        messageTwo.textContent=('description: '+data.des +'    '+data.des1 )
+        messageTwo.textContent=('description: '+data.des  )
         }
     })
 

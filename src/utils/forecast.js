@@ -18,8 +18,8 @@ const forecast = (longitude ,latitude, callback)=>{
         else
         {
            callback(undefined,{
-           des:'There is '+ body.current.temp+' degrees(currently) out there. ('+  body.current.weather[0].description+')',
-           des1:'Hourly :'+body.hourly[0].temp +' degrees'
+           des:'There is '+ body.current.temp+' degrees(currently) out there. ('+  body.current.weather[0].description+') '+'Hourly :'+body.hourly[0].temp +' degrees',
+        
 
          })
         }
